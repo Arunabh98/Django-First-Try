@@ -1,0 +1,243 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"reverse"
+			],
+			[
+				"po",
+				"post_detail"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"Post",
+				"PostAdmin"
+			],
+			[
+				"m",
+				"mysite"
+			],
+			[
+				"in",
+				"input"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/darkknight/trydjango19/src/posts/models.py",
+		"/home/darkknight/trydjango19/src/templates/index.html",
+		"/home/darkknight/trydjango19/src/templates/post_detail.html",
+		"/home/darkknight/trydjango19/src/posts/urls.py",
+		"/home/darkknight/trydjango19/src/posts/views.py",
+		"/home/darkknight/trydjango19/src/trydjango19/settings.py",
+		"/home/darkknight/trydjango19/src/trydjango19/urls.py",
+		"/home/darkknight/trydjango19/src/posts/admin.py",
+		"/home/darkknight/trydjango19/src/crud.md",
+		"/home/darkknight/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+		"/home/darkknight/djangoboys/blog/views.py",
+		"/home/darkknight/djangoboys/blog/urls.py",
+		"/home/darkknight/djangoboys/blog/templates/blog/base.html",
+		"/home/darkknight/djangoboys/blog/static/css/blog.css",
+		"/home/darkknight/djangoboys/blog/templates/blog/post_list.html",
+		"/home/darkknight/djangoboys/mysite/urls.py",
+		"/media/darkknight/Windows/Users/Arunabh/Desktop/WnCC/Code/WnCC-Task 1.py",
+		"/home/darkknight/djangoboys/Untitled Document",
+		"/home/darkknight/djangoboys/blog/admin.py",
+		"/home/darkknight/djangoboys/mysite/settings.py",
+		"/home/darkknight/djangoboys/blog/models.py",
+		"/home/darkknight/practice_django/mysite/templates/admin/base_site.html",
+		"/home/darkknight/practice_django/mysite/polls/models.py",
+		"/home/darkknight/practice_django/mysite/mysite/settings.py",
+		"/home/darkknight/practice_django/mysite/polls/views.py",
+		"/home/darkknight/practice_django/mysite/polls/static/polls/style.css",
+		"/home/darkknight/practice_django/mysite/polls/templates/polls/index.html",
+		"/home/darkknight/practice_django/mysite/polls/admin.py",
+		"/home/darkknight/practice_django/mysite/polls/urls.py",
+		"/home/darkknight/practice_django/mysite/polls/templates/polls/detail.html",
+		"/home/darkknight/practice_django/mysite/polls/templates/polls/results.html",
+		"/home/darkknight/practice_django/mysite/polls/tests.py",
+		"/home/darkknight/practice_django/mysite/mysite/urls.py",
+		"/home/darkknight/djcode/mysite/books/models.py",
+		"/home/darkknight/djcode/mysite/mysite/settings.py",
+		"/home/darkknight/djcode/mysite/mysite/urls.py",
+		"/home/darkknight/djcode/mysite/mysite/views.py",
+		"/home/darkknight/WnCC-Task-master/WnCC-Task 1.py",
+		"/home/darkknight/WnCC-Task-master/WnCC-Bonus Task 1.py",
+		"/home/darkknight/djcode/mysite/views.py",
+		"/home/darkknight/Blog_Aggregator/iitb-blog-aggregator/configurations/config",
+		"/home/darkknight/Desktop/mysite/mysite/settings.py",
+		"/home/darkknight/Desktop/mysite/polls/models.py",
+		"/home/darkknight/oksp/oksp/settings/conf.py",
+		"/home/darkknight/Desktop/mysite/mysite/settings",
+		"/home/darkknight/Desktop/mysite/settings.py",
+		"/home/darkknight/mysite/polls/urls.py",
+		"/home/darkknight/mysite/views.py",
+		"/home/darkknight/mysite/mysite/urls.py",
+		"/home/darkknight/Desktop/mysite/polls/urls.py",
+		"/home/darkknight/Desktop/mysite/manage.py",
+		"/home/darkknight/Desktop/mysite/polls/views.py",
+		"/home/darkknight/Desktop/mysite/mysite/urls.py"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"TEMPLA",
+			"path to git"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "activate.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

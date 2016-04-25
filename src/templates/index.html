@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1>{{ title }}</h1>
+		{%for obj in object_list%}
+			<a href='{% url "detail" id=obj.id %}'>{{ obj.title }}</a> <br/>
+			{{ obj.description }} <br/>
+			{{ obj.updated }}<br/>
+			{{ obj.id }}<br/>
+			<a href ='{% url "download" id=obj.id %}'>Download Paper</a><br/>
+			<br/>
+		{% endfor %}
+	</body>
+</html>

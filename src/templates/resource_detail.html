@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1>{{ title }}</h1>
+			{{ instance.description }} <br/>
+			{{ instance.updated }}<br/>
+			<a href ='{% url "download" id=instance.id %}'>Download Paper</a><br/>
+	</body>
+</html>

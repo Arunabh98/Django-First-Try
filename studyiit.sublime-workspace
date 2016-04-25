@@ -1,0 +1,470 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"form"
+			],
+			[
+				"for",
+				"forms"
+			],
+			[
+				"res",
+				"resource"
+			],
+			[
+				"reso",
+				"resource_detail"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"po",
+				"post_delete"
+			],
+			[
+				"pos",
+				"post_detail"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"Post",
+				"PostAdmin"
+			],
+			[
+				"m",
+				"mysite"
+			],
+			[
+				"in",
+				"input"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/templates/resource_form.html",
+			"settings":
+			{
+				"buffer_size": 260,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/resources/views.py",
+			"settings":
+			{
+				"buffer_size": 2339,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/resources/urls.py",
+			"settings":
+			{
+				"buffer_size": 536,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/resource_detail.html",
+			"settings":
+			{
+				"buffer_size": 246,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/resources/forms.py",
+			"settings":
+			{
+				"buffer_size": 274,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/darkknight/Desktop/studyiit",
+		"/home/darkknight/Desktop/studyiit/src",
+		"/home/darkknight/Desktop/studyiit/src/resources",
+		"/home/darkknight/Desktop/studyiit/src/templates"
+	],
+	"file_history":
+	[
+		"/home/darkknight/Desktop/studyiit/lib/python2.7/site-packages/django/contrib/admin/templatetags/admin_urls.py",
+		"/home/darkknight/Desktop/studyiit/lib/python2.7/site-packages/django/contrib/admin/forms.py",
+		"/home/darkknight/Desktop/studyiit/src/resources/views.py",
+		"/home/darkknight/Desktop/studyiit/src/resources/urls.py",
+		"/home/darkknight/Desktop/studyiit/src/templates/index.html",
+		"/home/darkknight/Desktop/studyiit/src/resources/models.py",
+		"/home/darkknight/Desktop/studyiit/src/studysite/urls.py",
+		"/home/darkknight/Desktop/studyiit/src/templates/resource_detail.html",
+		"/home/darkknight/Desktop/studyiit/src/studysite/settings.py",
+		"/home/darkknight/Desktop/studyiit/src/resources/admin.py",
+		"/home/darkknight/trydjango19/src/posts/models.py",
+		"/home/darkknight/trydjango19/src/templates/index.html",
+		"/home/darkknight/trydjango19/src/templates/post_detail.html",
+		"/home/darkknight/trydjango19/src/posts/urls.py",
+		"/home/darkknight/trydjango19/src/posts/views.py",
+		"/home/darkknight/trydjango19/src/trydjango19/settings.py",
+		"/home/darkknight/trydjango19/src/trydjango19/urls.py",
+		"/home/darkknight/trydjango19/src/posts/admin.py",
+		"/home/darkknight/trydjango19/src/crud.md",
+		"/home/darkknight/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+		"/home/darkknight/djangoboys/blog/views.py",
+		"/home/darkknight/djangoboys/blog/urls.py",
+		"/home/darkknight/djangoboys/blog/templates/blog/base.html",
+		"/home/darkknight/djangoboys/blog/static/css/blog.css",
+		"/home/darkknight/djangoboys/blog/templates/blog/post_list.html",
+		"/home/darkknight/djangoboys/mysite/urls.py",
+		"/media/darkknight/Windows/Users/Arunabh/Desktop/WnCC/Code/WnCC-Task 1.py",
+		"/home/darkknight/djangoboys/Untitled Document",
+		"/home/darkknight/djangoboys/blog/admin.py",
+		"/home/darkknight/djangoboys/mysite/settings.py",
+		"/home/darkknight/djangoboys/blog/models.py",
+		"/home/darkknight/practice_django/mysite/templates/admin/base_site.html",
+		"/home/darkknight/practice_django/mysite/polls/models.py",
+		"/home/darkknight/practice_django/mysite/mysite/settings.py",
+		"/home/darkknight/practice_django/mysite/polls/views.py",
+		"/home/darkknight/practice_django/mysite/polls/static/polls/style.css",
+		"/home/darkknight/practice_django/mysite/polls/templates/polls/index.html",
+		"/home/darkknight/practice_django/mysite/polls/admin.py",
+		"/home/darkknight/practice_django/mysite/polls/urls.py",
+		"/home/darkknight/practice_django/mysite/polls/templates/polls/detail.html",
+		"/home/darkknight/practice_django/mysite/polls/templates/polls/results.html",
+		"/home/darkknight/practice_django/mysite/polls/tests.py",
+		"/home/darkknight/practice_django/mysite/mysite/urls.py",
+		"/home/darkknight/djcode/mysite/books/models.py",
+		"/home/darkknight/djcode/mysite/mysite/settings.py",
+		"/home/darkknight/djcode/mysite/mysite/urls.py",
+		"/home/darkknight/djcode/mysite/mysite/views.py",
+		"/home/darkknight/WnCC-Task-master/WnCC-Task 1.py",
+		"/home/darkknight/WnCC-Task-master/WnCC-Bonus Task 1.py",
+		"/home/darkknight/djcode/mysite/views.py",
+		"/home/darkknight/Blog_Aggregator/iitb-blog-aggregator/configurations/config",
+		"/home/darkknight/Desktop/mysite/mysite/settings.py",
+		"/home/darkknight/Desktop/mysite/polls/models.py",
+		"/home/darkknight/oksp/oksp/settings/conf.py",
+		"/home/darkknight/Desktop/mysite/mysite/settings",
+		"/home/darkknight/Desktop/mysite/settings.py",
+		"/home/darkknight/mysite/polls/urls.py",
+		"/home/darkknight/mysite/views.py",
+		"/home/darkknight/mysite/mysite/urls.py",
+		"/home/darkknight/Desktop/mysite/polls/urls.py",
+		"/home/darkknight/Desktop/mysite/manage.py",
+		"/home/darkknight/Desktop/mysite/polls/views.py",
+		"/home/darkknight/Desktop/mysite/mysite/urls.py"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"posts",
+			"TEMPLA",
+			"path to git"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/templates/resource_form.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/resources/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1084,
+								1084
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 173.0,
+						"translation.y": 660.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/resources/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								496,
+								496
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 15.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/templates/resource_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/resources/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "studyiit.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
