@@ -10,7 +10,7 @@ from django.http import HttpResponseRedirect
 from datetime import datetime   
 
 def resource_create(request):
-	form = resourceForm(request.POST or None,request.FILES)
+	form = resourceForm(request.POST or None,request.FILES or None)
 	if form.is_valid():
 		instance = resource(upload=request.FILES['upload'], title=request.POST.get("title"), description=request.POST.get("description"))
 		instance.save()
