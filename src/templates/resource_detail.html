@@ -1,19 +1,13 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title></title>
-	</head>
-	<body>
-		{% if messages %}
-			<ul class="messages">
-			    {% for message in messages %}
-			    	<li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
-			    {% endfor %}
-			</ul>
-		{% endif %}
-		<h1>{{ title }}</h1>
-			{{ instance.description }} <br/>
-			{{ instance.updated }}<br/>
-			<a href ='{% url "download" id=instance.id %}'>Download Paper</a><br/>
-	</body>
-</html>
+{% extends "base.html" %}
+
+{% block head_title %}
+	{{ instance.title }}|{{ block.super }}
+{% endblock head_title %}
+
+
+{% block content %}		
+	<h1>{{ title }}</h1>
+		{{ instance.description }} <br/>
+		{{ instance.updated }}<br/>
+		<a href ='{% url "download" id=instance.id %}'>Download Paper</a><br/>
+{% endblock content %}

@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Form</title>
-	</head>
-	<body>
-		<h1>{{ title }}</h1>
-		<form method='POST' action='' enctype="multipart/form-data">{% csrf_token %}
-			{{ form.as_p }}
-			<input type = 'submit' value='Upload' />
-		</form>
-	</body>
-</html>
+{% extends "base.html" %}
+{% block content %}
+	<h1>{{ title }}</h1>
+	<form method='POST' action='' enctype="multipart/form-data">{% csrf_token %}
+		{{ form.as_p }}
+		<input type = 'submit' value='Upload' />
+	</form>
+{% endblock content %}

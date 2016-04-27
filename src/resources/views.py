@@ -1,8 +1,9 @@
 from django.contrib import messages
 from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.utils.encoding import smart_str
 from .forms import resourceForm
+from django.core.urlresolvers import reverse
 # Create your views here.
 from .models import resource
 from django.http import HttpResponseRedirect
@@ -14,9 +15,8 @@ def resource_create(request):
 		instance = resource(upload=request.FILES['upload'], title=request.POST.get("title"), description=request.POST.get("description"))
 		instance.save()
 		messages.success(request, "Successfully Created")
-		return HttpResponseRedirect("http://127.0.0.1:8000/resources/detail/%s" %str(instance.id))
-	else:
-		messages.error(request, "Not Successfully Created")
+		#return HttpResponseRedirect("http://127.0.0.1:8000/resources/detail/%s" %str(instance.id))
+		return HttpResponseRedirect(reverse('detail', kwargs={'id': instance.id}))
 	context = {
 		"form": form,
 	}
@@ -37,7 +37,7 @@ def resource_list(request):
 		"title": "Resources",
 	}
 
-	return render(request, "index.html", context)
+	return render(request, "resource_list.html", context)
 
 def resource_update(request, id = None):
 	instance = get_object_or_404(resource, id = id)
@@ -46,7 +46,7 @@ def resource_update(request, id = None):
 		instance = resource(upload=request.FILES['upload'], title=request.POST.get("title"), description=request.POST.get("description"), id=instance.id, timestamp = instance.timestamp, updated = datetime.now())
 		instance.save()
 		messages.success(request, "Saved")
-		return HttpResponseRedirect("http://127.0.0.1:8000/resources/detail/%s" %str(instance.id))
+		return HttpResponseRedirect(reverse('detail', kwargs={'id': instance.id}))
 	context = {
 		"title": instance.title,
 		"instance": instance,
@@ -54,8 +54,11 @@ def resource_update(request, id = None):
 	}
 	return render(request, "resource_form.html", context)
 
-def resource_delete(request):
-	return HttpResponse("<h1>Delete</h1>")
+def resource_delete(request, id = None):
+	instance = get_object_or_404(resource, id = id)
+	instance.delete()
+	messages.success(request, "Successfully deleted")
+	return redirect("list")
 
 def download(request, id = None):
 	# Create the HttpResponse object with the appropriate PDF headers.
